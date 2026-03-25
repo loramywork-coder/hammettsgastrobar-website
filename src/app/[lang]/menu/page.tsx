@@ -58,7 +58,7 @@ export default async function MenuPage({
           {/* Download links */}
           <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
             <a
-              href="/menus/hammetts-menu.pdf"
+              href="/menus/brunch-menu.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="group inline-flex items-center gap-2 rounded-full border border-copper/30 px-5 py-2.5 font-body text-sm tracking-wider text-copper transition-all duration-300 hover:border-copper hover:bg-copper/10"
@@ -66,10 +66,32 @@ export default async function MenuPage({
               <svg className="h-4 w-4 transition-transform duration-300 group-hover:-translate-y-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
               </svg>
-              {dict.menu.downloadMenu}
+              Brunch Menu
             </a>
             <a
-              href="/menus/hammetts-wine-list.pdf"
+              href="/menus/desserts-menu.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group inline-flex items-center gap-2 rounded-full border border-copper/30 px-5 py-2.5 font-body text-sm tracking-wider text-copper transition-all duration-300 hover:border-copper hover:bg-copper/10"
+            >
+              <svg className="h-4 w-4 transition-transform duration-300 group-hover:-translate-y-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+              </svg>
+              Desserts Menu
+            </a>
+            <a
+              href="/menus/cocktails-menu.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group inline-flex items-center gap-2 rounded-full border border-copper/30 px-5 py-2.5 font-body text-sm tracking-wider text-copper transition-all duration-300 hover:border-copper hover:bg-copper/10"
+            >
+              <svg className="h-4 w-4 transition-transform duration-300 group-hover:-translate-y-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+              </svg>
+              Cocktails Menu
+            </a>
+            <a
+              href="/menus/wine-list.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="group inline-flex items-center gap-2 rounded-full border border-copper/30 px-5 py-2.5 font-body text-sm tracking-wider text-copper transition-all duration-300 hover:border-copper hover:bg-copper/10"
